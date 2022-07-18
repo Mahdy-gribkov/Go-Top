@@ -1,0 +1,55 @@
+
+html{
+    scroll-behavior: smooth;
+    }
+    
+    section {
+      height: 75vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "raleway", sans-serif;
+      font-size: 32px;
+      text-transform: uppercase;
+      letter-spacing: 8px;
+    }
+
+    
+    .section1 {
+      background-color: coral;
+    }
+    .section2 {
+      background-color: firebrick;
+    }
+    .section3 {
+      background-color: #d06bff;
+    }
+    .section4 {
+      background-color: indianred;
+    }
+    
+    .to-top{
+        background: #fff;
+        position: fixed;
+        bottom: 16px;
+        right: 32px;
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+        color: #121212;
+        text-decoration: none;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.4s;;
+    
+    }
+    
+    .to-top.active{
+        bottom: 32px;
+        pointer-events: auto;
+        opacity: 1;
+    
+    }
